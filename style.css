@@ -8,6 +8,7 @@ body{
     /* background-image:url(./media/467994-wallpaper-top-free-2560x1600-background.jpg); */
     background-position: center;
     background-size: cover;
+    background-image: url(./media/2015-grunge-graffiti-vector.jpg);
 }
 nav{
     color: white;
@@ -32,7 +33,7 @@ nav>span:last-child{
     border-radius: 8px;
 }
 nav>div{
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: space-around;
     color: black;
@@ -52,6 +53,9 @@ main{
     /* background-color: rgb(231, 224, 224); */
     /* background-color: rgba(170, 169, 166, 0.384); */
     margin: auto;
+    /* background-image: url(./media/2015-grunge-graffiti-vector.jpg);
+    background-position: center;
+    background-size: cover; */
 }
 .section1{
     /* border: 2px solid red;
@@ -63,6 +67,7 @@ main{
 .section1>span{
     font-size: 1.2rem;
     font-weight: 600;
+    color: rgb(255, 255, 255);
     /* width: 50%; */
     display: flex;
     flex-direction: column;
