@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    /* background-image:url(./media/467994-wallpaper-top-free-2560x1600-background.jpg); */
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    color: white;
+    /* background-color: black; */
+    margin: auto;
+    width: 90%;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+nav>span{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+nav>span:last-child{
+    color: white;
+    background-color: black;
+    padding: 0.6rem;
+    border-radius: 8px;
+}
+nav>div{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    align-items: center;
+}
+nav>div>span{
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav>div>span:hover{
+    background-color: black;
+    color: WHITE;
+}
+main{
+    width: 85%;
+    /* background-color: rgb(231, 224, 224); */
+    /* background-color: rgba(170, 169, 166, 0.384); */
+    margin: auto;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.section1>span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 50%;
+}
+.section1>img{
+    height: 600px;
+}
+.section1>span>h1{
+    text-align: center;
+}
+.section2{
+    width: 95%;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 1.2rem;
+    margin-bottom: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1.5rem;
+}
